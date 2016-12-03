@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>LPaint</title>
+		<style type="text/css">
+
+			body{
+				background-color: #E5E7E9;
+			}
+			h1{
+				text-align: center;
+				font-family: Tahoma;
+				margin: 5px auto;
+			}
+			#text{				
+				font-family: Tahoma;				
+				text-align: center;
+			}
+			header{
+				background-color: #FDFEFE;
+				margin-left: 10%;
+				margin-right: 10%;
+				box-shadow: #CACFD2 3px 3px 2px;
+				border-radius: 5px;
+			}
+			canvas{
+				background-color: #FDFEFE;				
+				border-radius: 5px;
+			}
+			div{
+				object-position: center;
+				background-color: #FDFEFE;
+				width: 500px;
+				margin: 15px auto;
+				border-radius: 5px;
+				box-shadow: #CACFD2 3px 3px 2px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>
+				LPaint
+			</h1>
+		</header>
+		<div>
+			<canvas id="zone" width="500" height="500" ></canvas>
+		</div>
+		<p id="text">Draw free</p>
+	 	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
